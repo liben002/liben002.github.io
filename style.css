@@ -1,0 +1,23 @@
+.body {
+	background-color: #e5e4e2;
+}
+.navbar {
+    background-color: #002a32;
+}
+/*Brand on the left of navbar*/
+.navbar .container-fluid .navbar-header a {
+	background-color: #002a32;
+	margin-left:15vh;
+	font-size: 20pt;
+}
+.navbar .collapse .nav {
+	background-color: #002a32;
+	margin-right:15vh;
+}
+/*Tabs at the navbar*/
+.navbar .collapse .nav a {
+	font-size: 18px;
+}
+.navbar .collapse .nav > li.active > a {
+  	color: #3c5a78;
+ }
