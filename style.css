@@ -1,5 +1,5 @@
-.body {
-	background-color: #e5e4e2;
+body {
+    background-color: lightgray;
 }
 .navbar {
     background-color: #002a32;
@@ -8,16 +8,21 @@
 .navbar .container-fluid .navbar-header a {
 	background-color: #002a32;
 	margin-left:15vh;
-	font-size: 20pt;
+	font-size: 18px;
 }
+/*Tabs at the navbar*/
 .navbar .collapse .nav {
 	background-color: #002a32;
 	margin-right:15vh;
+}
+.navbar .collapse .nav a:hover {
+    background-color: lightgray;
 }
 /*Tabs at the navbar*/
 .navbar .collapse .nav a {
 	font-size: 18px;
 }
+/*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
-  	color: #3c5a78;
+  	color: #00d6d6;
  }
