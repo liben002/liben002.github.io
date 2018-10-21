@@ -10,6 +10,9 @@ body {
 	margin-left:15vh;
 	font-size: 18px;
 }
+.navbar .container-fluid .navbar-header .navbar-toggle {
+	background-color = #000000;
+}
 /*Tabs at the navbar*/
 .navbar .collapse .nav {
 	background-color: #002a32;
@@ -25,4 +28,12 @@ body {
 /*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
   	color: #00d6d6;
+ }
+
+ /*processing_projects*/
+ .ppMain {
+ 	margin-left:15vh;
+ }
+ .ppMain .GDG h1 {
+ 	margin-top:20vh;
  }
