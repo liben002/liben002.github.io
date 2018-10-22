@@ -1,7 +1,11 @@
+/*Applies to the whole body*/
 body {
     background-color: lightgray;
 }
+/*Whole navbar options*/
 .navbar {
+	font-family: raleway,lato,Arial,Helvetica,sans-serif;
+    font-weight: 550;
     background-color: #002a32;
 }
 /*Brand on the left of navbar*/
@@ -10,8 +14,9 @@ body {
 	margin-left:15vh;
 	font-size: 18px;
 }
+/*Mobile view navbar*/
 .navbar .container-fluid .navbar-header .navbar-toggle {
-	background-color = #000000;
+	background-color : lightgray;
 }
 /*Tabs at the navbar*/
 .navbar .collapse .nav {
@@ -28,6 +33,11 @@ body {
 /*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
   	color: #00d6d6;
+ }
+ /*index*/
+ .about_me h1 {
+ 	text-align: center;
+ 	margin-top:20vh;
  }
 
  /*processing_projects*/
