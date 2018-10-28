@@ -1,27 +1,31 @@
+/*75 186 250 4BBAFA blue 204 204 204 CCCCCC*/
 /*Applies to the whole body*/
 body {
-    background-color: lightgray;
+    background-color: #FFFFFF;
 }
 /*Whole navbar options*/
 .navbar {
 	font-family: raleway,lato,Arial,Helvetica,sans-serif;
     font-weight: 550;
-    background-color: #002a32;
+    background-color: #CCCCCC;
+}
+/*Whole navbar*/
+.navbar .container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 /*Brand on the left of navbar*/
 .navbar .container-fluid .navbar-header a {
-	background-color: #002a32;
-	margin-left:15vh;
+	background-color: #CCCCCC;
 	font-size: 18px;
 }
 /*Mobile view navbar*/
 .navbar .container-fluid .navbar-header .navbar-toggle {
-	background-color : lightgray;
+	background-color : #002a32;
 }
 /*Tabs at the navbar*/
 .navbar .collapse .nav {
-	background-color: #002a32;
-	margin-right:15vh;
+	background-color: #CCCCCC;
 }
 .navbar .collapse .nav a:hover {
     background-color: lightgray;
@@ -32,18 +36,44 @@ body {
 }
 /*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
-  	color: #00d6d6;
+  	color: #4BBAFA;
  }
  /*index*/
  .about_me h1 {
  	text-align: center;
- 	margin-top:20vh;
+ 	margin-top: 20%;
+ 	font-weight: 200;
+ 	color: #000000;
+ }
+ .about_me p {
+ 	text-align: left;
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ 	font-family: raleway,lato,Arial,Helvetica,sans-serif;
+ 	font-size: 18px;
+ 	line-height: 2;
  }
 
  /*processing_projects*/
  .ppMain {
- 	margin-left:15vh;
+ 	margin-left: 15%;
+ 	margin-right: 15%;
  }
  .ppMain .GDG h1 {
- 	margin-top:20vh;
+ 	margin-top:15%;
+ }
+ .ppMain .GDG p {
+ 	line-height: 1.75;
+ }
+ }
+ .ppMain .Fractal h1 {
+ 	margin-top:15%;
+ }
+ .ppMain .Fractal p {
+ 	line-height: 1.75;
+ }
+ .ppMain .Fractal iframe {
+ 	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
  }
