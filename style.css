@@ -21,7 +21,7 @@ body {
 /*Brand on the left of navbar*/
 .navbar .container-fluid .navbar-header a {
 	background-color: #CCCCCC;
-	font-size: 18px;
+	font-size: 112.5%;
 }
 /*Mobile view navbar*/
 .navbar .container-fluid .navbar-header .navbar-toggle {
@@ -36,7 +36,7 @@ body {
 }
 /*Tabs at the navbar*/
 .navbar .collapse .nav a {
-	font-size: 18px;
+	font-size: 112.5%;
 }
 /*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
@@ -63,7 +63,7 @@ body {
  	margin-left: 15%;
  	margin-right: 15%;
  	font-family: 'Karla', sans-serif;
- 	font-size: 18px;
+ 	font-size: 112.5%;
  	line-height: 2;
  }
  /*processing_projects*/
@@ -73,16 +73,21 @@ body {
  }
  .ppMain .GDG h1 {
  	margin-top:15%;
+ 	font-family: 'Roboto', sans-serif;
  }
  .ppMain .GDG p {
  	line-height: 1.75;
- }
+ 	font-family: 'Karla', sans-serif;
+ 	font-size: 100%;
  }
  .ppMain .Fractal h1 {
  	margin-top:15%;
+ 	font-family: 'Roboto', sans-serif;
  }
  .ppMain .Fractal p {
  	line-height: 1.75;
+ 	font-family: 'Karla', sans-serif;
+ 	font-size: 100%;
  }
  .ppMain .Fractal iframe {
  	display: block;
