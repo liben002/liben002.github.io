@@ -1,4 +1,8 @@
 /*75 186 250 4BBAFA blue 204 204 204 CCCCCC*/
+/*
+font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
 /*Applies to the whole body*/
 body {
     background-color: #FFFFFF;
@@ -40,20 +44,28 @@ body {
  }
  /*index*/
  .about_me h1 {
+ 	font-family: 'Karla', sans-serif;
  	text-align: center;
- 	margin-top: 20%;
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ 	margin-top: 10%;
  	font-weight: 200;
+ 	color: #000000;
+ }
+ .about_me h2 {
+ 	font-family: 'Roboto', sans-serif;
+ 	text-align: center;
+ 	font-weight: 100;
  	color: #000000;
  }
  .about_me p {
  	text-align: left;
  	margin-left: 15%;
  	margin-right: 15%;
- 	font-family: raleway,lato,Arial,Helvetica,sans-serif;
+ 	font-family: 'Karla', sans-serif;
  	font-size: 18px;
  	line-height: 2;
  }
-
  /*processing_projects*/
  .ppMain {
  	margin-left: 15%;
