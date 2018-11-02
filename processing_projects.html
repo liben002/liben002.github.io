@@ -14,6 +14,21 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Karla|Roboto" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			  font: 400 15px/1.8 "Lato", sans-serif;
+			  color: #777;
+			}
+			@media only screen and (max-device-width: 1024px) {
+    			.bgimg-1, .bgimg-2, .bgimg-3 {
+       			background-attachment: scroll;
+    			}
+			}
+		</style>
 	</head>
 
 	<body>
@@ -73,17 +88,46 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+		<div class="ppTitle">
+		  <div class="caption">
+		    <span class="border">Processing Projects</span>
+		  </div>
+		</div>
 
-		<div class="ppMain">
-			<div class="GDG">
-				<h1>Google Dinosaur Game</h1>
-				<p>The final project for APCS! Wow, this takes me back. At the time, I, a junior in high school,had less than a year of programming experience. Yet I was able to completely recreate the Google dinosaur game, which was a huge accomplishment for me at the time. It's not very well optimized, at all, and there are many bugs that sometimes causes the game to crash. Nevertheless, I had a great time making it, and it's a fun thing to show others. <a href="https://github.com/liben002/myGoogleDinosaurGame">Link to GitHub repo.</a> I am trying to get this to work on OpenProcessing so that it can be embedded onto this page.</p>
-			</div>
-			<div class="Fractal">
-				<h1>Random Fractal Tree</h1>
-				<p>Finally, something that won something. This random fractal generator was my submission to the Hour of Code 2017 competition. I got the idea from combining two labs Dr. Nguyen had us do towards the end of the year, which is probably why the project is a little basic. However, it works well and took a lot of research to complete, so I am proud of it. It's also easily configurable to change the base shape and pattern, giving it flexability. This won second place in the 3D Modeling Category, so maybe I should make some prints.<a href="https://github.com/liben002/randomFractals">Link to GitHub repo.</a></p>
-				<iframe src="https://www.openprocessing.org/sketch/486393/embed/" width="700" height="700"></iframe>
-			</div>
+		<div class = "GDG" style="color: #777;background-color:lightgray;text-align:center;padding:50px 80px;text-align: justify;">
+		  <h1 style="text-align:center;">Google Dinosaur Game</h1>
+		  <p>The final project for APCS! Wow, this takes me back. At the time, I, a junior in high school,had less than a year of programming experience. Yet I was able to completely recreate the Google dinosaur game, which was a huge accomplishment for me at the time. It's not very well optimized, at all, and there are many bugs that sometimes causes the game to crash. Nevertheless, I had a great time making it, and it's a fun thing to show others.<a href="https://github.com/liben002/myGoogleDinosaurGame"> Link to GitHub repo.</a> I am trying to get this to work on OpenProcessing so that it can be embedded onto this page.</p>
+		  <img src="GDGDemo.png" class = "center">
+		</div>
+
+		<div class="GDGImage">
+		  <!-- <div class="caption">
+		    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+		  </div> -->
+		</div>
+
+		<div class = "Fractal" style="color:gray;background-color:gray;text-align:center;padding:50px 80px;text-align: justify;">
+		  <h1 style="text-align:center;">Random Fractal Tree</h1>
+		  <p>Finally, something that won something. This random fractal generator was my submission to the Hour of Code 2017 competition. I got the idea from combining two labs Dr. Nguyen had us do towards the end of the year, which is probably why the project is a little basic. However, it works well and took a lot of research to complete, so I am proud of it. It's also easily configurable to change the base shape and pattern, giving it flexability. This won second place in the 3D Modeling Category, so maybe I should make some prints.<a href="https://github.com/liben002/randomFractals" style="color:#D0D0D0;;"> Link to GitHub repo.</a></p>
+		  <iframe src="https://www.openprocessing.org/sketch/486393/embed/" width="700" height="700" class="center"></iframe>
+		</div>
+
+		<div class="fractalImage">
+		  <!-- <div class="caption">
+		    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+		  </div> -->
+		</div>
+
+		<div style="position:relative;">
+		  <!-- <div style="color:#FFFFFF;background-color:gray;text-align:center;padding:50px 80px;">
+		    <p>placeholder</p>
+		  </div> -->
+		</div>
+
+		<div class="ppTitle">
+		  <div class="caption">
+		    <span class="border">More to Come!</span>
+		  </div>
 		</div>
 
 
