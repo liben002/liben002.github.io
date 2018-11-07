@@ -95,14 +95,14 @@ body {
  }
  .ppTitle, .GDGImage, .fractalImage {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.9;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .ppTitle {
-  background-image: url("processing.jpg");
+  background-image: url("processing.png");
   min-height: 100%;
 }
 .GDGImage {
@@ -121,15 +121,17 @@ body {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #000000;
 }
 .caption span.border {
-  background-color: #000000;
-  color: #fff;
+  background-color: #303030;
+  color: #FFFFFF;
   padding: 18px;
   font-size: 300%;
   letter-spacing: 10px;
 }
+
+
 
 
 
