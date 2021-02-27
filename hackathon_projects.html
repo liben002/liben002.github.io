@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<title>Benjamin Li's Website</title>
+		<title>Benjamin Li - Hackathon Projects</title>
 			<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -11,7 +12,23 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 			<!-- Latest compiled and minified JQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Karla|Roboto" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			  font: 400 15px/1.8 'Karla', sans-serif;
+			  color: #777777;
+			}
+			@media only screen and (max-device-width: 1024px) {
+    			.bgimg-1, .bgimg-2, .bgimg-3 {
+       			background-attachment: scroll;
+    			}
+			}
+		</style>
 	</head>
 
 	<body>
@@ -28,24 +45,21 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="index.html">Benjamin Li's Website</a>
+		      <a class="navbar-brand" href="index.html">Benjamin Li - Portfolio</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
-		        <li><a href="current_work.html">Current Work</a></li>
+		        <li><a href="index.html">Home<span class="sr-only"></span></a></li>
+		        <li><a href="resume.html">Resume</a></li>
 		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past Projects<span class="caret"></span></a>
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
 		          <ul class="dropdown-menu">
-		            <li><a href="processing_projects.html">Processing Projects</a></li>
-		            <li><a href="java_projects.html">Java Projects</a></li>
-		            <li><a href="matlab_projects.html">Matlab Projects</a></li>
+		            <li><a href="personal_projects.html">Personal</a></li>
+		            <li class="active"><a href="#">Hackathon</a></li>
 		            <li role="separator" class="divider"></li>
-		            <li><a href="personal_projects.html">Personal Projects</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li class="active"><a href="hackathon_projects.html">Hackathon Projects</a></li>
+		            <li><a href="processing_projects.html">Processing</a></li>
 		          </ul>
 		        </li>
 		      </ul>
@@ -71,6 +85,47 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+		<div class="hackathonTitle">
+		  <div class="caption">
+		    <span class="border">Hackathon Projects</span>
+		  </div>
+		</div>
+
+		<div class = "project1" style="color: #777;background-color:lightgray;text-align:center;padding:50px 80px;text-align: justify;">
+		  <h1 style="text-align:center;">hackm.app - November 2018</h1>
+		  <p>hackm.app was the first ever webapp I built. Together with my good friends, we created a service that displayed MLH-registered hackathons on a map. I was responsible for the web scraper, which retrieved hackathon info from the MLH site. This won first place at Codestellation 2019 and got me my first SWE internship!<a href="https://github.com/hackmapp/hackmapp"> Link to the GitHub repo.</a></p>
+		  <iframe src="https://hackm.app/" width="800" height="600" class="center" style="background-color: #FFFFFF"></iframe>
+		</div>
+
+		<div class="hackmappImage">
+		  <!-- <div class="caption">
+		    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+		  </div> -->
+		</div>
+
+		<div class = "project2" style="color:white;background-color:gray;text-align:center;padding:50px 80px;text-align: justify;">
+		  <h1 style="text-align:center;">Wikiwhere - Spring 2019</h1>
+		  <p>Wikiwhere is one of the coolest things I've ever worked on. Based on the idea 6 degrees of separation, Wikiwhere finds the shortest path from one article to another using only Wikipedia links found in each step. Once again, this was a team effort, and is our most recently completed project.<a href="https://github.com/wikiwhere/wikiwhere" style="color:#002a32;"> Link to the GitHub repo.</a></p>
+		  <iframe src="https://wikiwhere.ciliber.to//" width="800" height="600" class="center" style="background-color: #FFFFFF"></iframe>
+		</div>
+
+		<div class="wikiwhereImage">
+		  <!-- <div class="caption">
+		    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+		  </div> -->
+		</div>
+
+		<div style="position:relative;">
+		  <!-- <div style="color:#FFFFFF;background-color:gray;text-align:center;padding:50px 80px;">
+		    <p>placeholder</p>
+		  </div> -->
+		</div>
+
+		<div class="hackathonTitle">
+		  <div class="caption">
+		    <span class="border">More to Come!</span>
+		  </div>
+		</div>
 
 
 </body>

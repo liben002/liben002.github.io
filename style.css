@@ -38,7 +38,7 @@ body {
 	background-color: #CCCCCC;
 }
 .navbar .collapse .nav a:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 /*Tabs at the navbar*/
 .navbar .collapse .nav a {
@@ -46,7 +46,7 @@ body {
 }
 /*Active tab gets different color*/
 .navbar .collapse .nav > li.active > a {
-  	color: #4BBAFA;
+  color: #0091ea;
  }
 
  /*index*/
@@ -93,7 +93,30 @@ body {
  	font-family: 'Karla', sans-serif;
  	font-size: 112.5%;
  }
- .ppTitle, .GDGImage, .fractalImage {
+
+ .project1 h1 {
+  font-family: 'Roboto', sans-serif;
+ }
+ .project1 p {
+  line-height: 1.75;
+  font-family: 'Karla', sans-serif;
+  font-size: 112.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+ }
+
+ .project2 h1 {
+  color:#F0F0F0;
+  font-family: 'Roboto', sans-serif;
+ }
+ .project2 p {
+  /*color:#D0D0D0;*/
+  line-height: 1.75;
+  font-family: 'Karla', sans-serif;
+  font-size: 112.5%;
+ }
+
+ .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage {
   position: relative;
   opacity: 0.9;
   background-attachment: fixed;
@@ -105,11 +128,29 @@ body {
   background-image: url("processing.png");
   min-height: 100%;
 }
+.hackathonTitle {
+  background-image: url("resources/images/hackathon.jpg");
+  min-height: 100%;
+}
+
 .GDGImage {
   background-image: url("GDG_picture.png");
   min-height: 100%;
   background-position: left;
 }
+
+.hackmappImage {
+  background-image: url("resources/images/hackmapp_code.png");
+  min-height: 100%;
+  background-position: center;
+}
+
+.wikiwhereImage {
+  background-image: url("resources/images/wikiwhere_code.png");
+  min-height: 100%;
+  background-position: center;
+}
+
 .fractalImage {
   background-image: url("randomFractal_picture.png");
   min-height: 100%;
