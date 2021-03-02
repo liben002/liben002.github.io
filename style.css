@@ -116,7 +116,7 @@ body {
   font-size: 112.5%;
  }
 
- .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage {
+ .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
   position: relative;
   opacity: 0.9;
   background-attachment: fixed;
@@ -156,6 +156,13 @@ body {
   min-height: 100%;
   background-position: left;
 }
+
+.pulseoxiImage {
+  background-image: url("resources/images/MAXREFDES117_code.png");
+  min-height: 100%;
+  background-position: center;
+}
+
 .caption {
   position: absolute;
   left: 0;
