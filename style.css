@@ -15,9 +15,9 @@ body {
 }
 /*Whole navbar options*/
 .navbar {
-	font-family: raleway,lato,Arial,Helvetica,sans-serif;
-    font-weight: 550;
-    background-color: #CCCCCC;
+  font-family: raleway,lato,Arial,Helvetica,sans-serif;
+  font-weight: 550;
+  background-color: #CCCCCC;
 }
 /*Whole navbar*/
 .navbar .container-fluid {
@@ -192,6 +192,20 @@ body {
   padding: 18px;
   font-size: 300%;
   letter-spacing: 10px;
+}
+
+.contact {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.icon {
+  height: 5%;
+  width: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 
