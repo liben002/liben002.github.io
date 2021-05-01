@@ -114,6 +114,8 @@ body {
   line-height: 1.75;
   font-family: 'Karla', sans-serif;
   font-size: 112.5%;
+  margin-left: 10%;
+  margin-right: 10%;
  }
 
  .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
