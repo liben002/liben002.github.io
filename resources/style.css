@@ -50,26 +50,32 @@ body {
   color: #0091ea;
  }
 
+.about_me {
+  position: relative;
+  margin-top: 15vh;
+  overflow: hidden;
+  display: block;
+}
+
  /*index*/
  .about_me h1 {
  	font-family: 'Karla', sans-serif;
- 	text-align: center;
- 	margin-left: 15%;
- 	margin-right: 15%;
- 	margin-top: 10%;
+ 	text-align: left;
+ 	margin-left: 10vh;
+ 	margin-right: 10vh;
  	font-weight: 200;
  	color: #000000;
  }
  .about_me h2 {
  	font-family: 'Karla', sans-serif;
- 	text-align: center;
+ 	text-align: left;
  	font-weight: 100;
  	color: #000000;
  }
  .about_me p {
- 	text-align: center;
- 	margin-left: 15%;
- 	margin-right: 15%;
+ 	text-align: left;
+ 	margin-left: 10vh;
+ 	margin-right: 10vh;
  	font-family: 'Karla', sans-serif;
  	font-size: 125%;
  	line-height: 2;
@@ -102,8 +108,8 @@ body {
   line-height: 1.75;
   font-family: 'Karla', sans-serif;
   font-size: 112.5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5vh;
+  margin-right: 5vh;
  }
 
  .project2 h1 {
@@ -115,8 +121,8 @@ body {
   line-height: 1.75;
   font-family: 'Karla', sans-serif;
   font-size: 112.5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5vh;
+  margin-right: 5vh;
  }
 
  .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
@@ -204,10 +210,12 @@ body {
 }
 
 .icon {
-  height: 5%;
-  width: 5%;
+  height: auto;
+  width: 100%;
+  max-width: 10vh;
   margin-left: 1%;
   margin-right: 1%;
+  margin-bottom: 5vh;
 }
 
 
