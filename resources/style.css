@@ -127,40 +127,40 @@ body {
   background-size: cover;
 }
 .ppTitle {
-  background-image: url("processing.png");
+  background-image: url("images/processing.png");
   min-height: 100%;
 }
 .hackathonTitle {
-  background-image: url("resources/images/hackathon.jpg");
+  background-image: url("images/hackathon.jpg");
   min-height: 100%;
 }
 
 .GDGImage {
-  background-image: url("GDG_picture.png");
+  background-image: url("images/GDG_picture.png");
   min-height: 100%;
   background-position: left;
 }
 
 .hackmappImage {
-  background-image: url("resources/images/hackmapp_code.png");
+  background-image: url("images/hackmapp_code.png");
   min-height: 100%;
   background-position: center;
 }
 
 .wikiwhereImage {
-  background-image: url("resources/images/wikiwhere_code.png");
+  background-image: url("images/wikiwhere_code.png");
   min-height: 100%;
   background-position: center;
 }
 
 .fractalImage {
-  background-image: url("randomFractal_picture.png");
+  background-image: url("images/randomFractal_picture.png");
   min-height: 100%;
   background-position: left;
 }
 
 .pulseoxiImage {
-  background-image: url("resources/images/MAXREFDES117_code.png");
+  background-image: url("images/MAXREFDES117_code.png");
   min-height: 100%;
   background-position: center;
 }
