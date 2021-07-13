@@ -31,8 +31,9 @@ body {
 }
 /*Mobile view navbar*/
 .navbar .container-fluid .navbar-header .navbar-toggle {
-	background-color : #002a32;
+  background:#FFFFFF url('icons/github.png');
 }
+
 /*Tabs at the navbar*/
 .navbar .collapse .nav {
 	background-color: #CCCCCC;
