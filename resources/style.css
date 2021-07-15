@@ -116,8 +116,8 @@ body {
   font-size: 112.5%;
   margin-left: 1vh;
   margin-right: 1vh;
-  padding-left: 50vh;
-  padding-right: 50vh;
+  padding-left: 25vh;
+  padding-right: 25vh;
  }
 
  .project2 h1 {
@@ -131,8 +131,8 @@ body {
   font-size: 112.5%;
   margin-left: 1vh;
   margin-right: 1vh;
-  padding-left: 50vh;
-  padding-right: 50vh;
+  padding-left: 25vh;
+  padding-right: 25vh;
  }
 
  .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
