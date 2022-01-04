@@ -135,7 +135,7 @@ body {
   padding-right: 25vh;
  }
 
- .ppTitle, .hackathonTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
+ .ppTitle, .hackathonTitle, .archivedTitle, .GDGImage, .fractalImage, .hackmappImage, .wikiwhereImage, .pulseoxiImage {
   position: relative;
   opacity: 0.9;
   background-attachment: fixed;
@@ -143,13 +143,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .ppTitle {
-  background-image: url("images/processing.png");
+  background-image: url("images/personal_projects_background.jpg");
   min-height: 100%;
 }
+
 .hackathonTitle {
-  background-image: url("images/hackathon.jpg");
+  background-image: url("images/hackathon_projects_background.jpg");
   min-height: 100%;
+}
+
+.archivedTitle {
+  background-image: url("images/archived_projects_background.jpg");
+  min-height: 100%;
+  background-position: center;
 }
 
 .GDGImage {
