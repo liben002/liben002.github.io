@@ -1,105 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <title>Benjamin Li</title>
+        <link rel="icon" href="resources/icons/aspirin_logo.ico" type="image/icon type">
 
-		<title>Benjamin Li | Portfolio</title>
-		<link rel="icon" href="resources/icons/aspirin_logo.ico" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="resources/style.css">
 
-		<link rel="stylesheet" type="text/css" href="resources/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-			<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		
+        <link href="https://fonts.googleapis.com/css?family=Karla|Roboto" rel="stylesheet">
 
-			<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1671Z2X4VT"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-			<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          gtag('config', 'G-1671Z2X4VT');
+        </script>
+    </head>
 
-		<!-- Latest compiled and minified JQuery, must be after bootstrap or else it breaks -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <body>
+        <div class="about_me">
+            <h1>hi! my name is Benjamin Li.</h1>
+            <p>
+                I graduated from Boston University in 2022 with a double major in Electrical and Computer Engineering.
+                <br>
+                I am a Software Engineer at Microsoft on the Azure Batch team.
+                <br>
+                I taught the <a href="https://www.howchenn.com/teaching/spring2022">CS200: Applied Problem Solving</a> class at Boston University and serve as the Mentor of the <a href="https://buhpc.club">High Performance Computing</a> club.
+                <br>
+                I have represented BU at multiple <a href="https://www.bu.edu/eng/2022/01/03/greater-than-the-sum/">international HPC Cluster Competitions</a> and at the 2020 ICPC Northeast Regional Competition.
+            </p>
+        </div>
 
-		<link href="https://fonts.googleapis.com/css?family=Karla|Roboto" rel="stylesheet">
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1671Z2X4VT"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-1671Z2X4VT');
-		</script>
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-
-	<body>
-		<script src="bootstrap.js"></script>
-
-		<!--Makes the top navigation bar -->
-		<nav class="navbar navbar-fixed-top">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Benjamin Li | Portfolio</a>
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-						<li><a href="resources/resume/Benjamin_Li_Resume.pdf" target="_blank">Resume</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="personal_projects.html">Personal</a></li>
-								<li><a href="hackathon_projects.html">Hackathon</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="archived_projects.html">Archived</a></li>
-							</ul>
-						</li>
-					</ul>
-<!-- 		      <ul class="nav navbar-nav navbar-right">
-				<li><a href="https://www.dbtba.com">Old Website</a></li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Papers<span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="Biopharma Industrial Analysis.pdf" target="_blank">Biopharma Industry</a></li>
-					<li><a href="Avexis Buyout.pdf" target="_blank">Avexis Buyout</a></li>
-				  </ul>
-				</li>
-			  </ul> -->
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-
-		<div class="about_me">
-			<h1 style="color:#4BBAFA">hi! my name is Benjamin Li, and this is my portfolio.</h1>
-			<h2>about me</h2>
-			<p>
-				I am a senior at Boston University studying Electrical and Computer Engineering.
-				<br>
-				I previously interned at Microsoft, Hewlett Packard Enterprise, and Rocket Software.
-				<br>
-				I teach the <a href="https://www.howchenn.com/teaching/spring2022">CS200: Applied Problem Solving</a> class at Boston University and serve as the President of the <a href="https://buhpc.club">High Performance Computing</a> club.
-				<br>
-				I have represented BU at multiple <a href="https://www.bu.edu/eng/2022/01/03/greater-than-the-sum/">international HPC Cluster Competitions</a> and at the 2020 ICPC Northeast Regional Competition.
-			</p>
-		</div>
-
-		<div class="contact">
-			<a href="mailto:li.ben002@gmail.com"> <img class="icon" src="resources/icons/email.png"> </a>
-			<a href="https://github.com/liben002"> <img class="icon" src="resources/icons/github.png"> </a>
-		</div>
-
-
-</body>
+        <div id="container" class="column">
+          <div class="item row">
+            <a href="https://github.com/liben002" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/liben002" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="resources/resume/Benjamin_Li_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+    </body>
+</html>
