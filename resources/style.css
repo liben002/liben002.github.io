@@ -60,7 +60,7 @@ body {
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 800px) {
 
   .about_me p {
     margin-left: 10vw;
