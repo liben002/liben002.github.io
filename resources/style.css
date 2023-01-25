@@ -65,8 +65,18 @@ body {
   .about_me p {
     margin-left: 10vw;
     margin-right: 10vw;
-    font-size: 3em;
+    font-size: 2em;
   }
+
+  .about_me h1 {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-weight: 200;
+  font-size: 3em;
+  color: #4BBAFA;
+ }
 
   .column {
     display: flex;
@@ -76,7 +86,7 @@ body {
   }
 
   .column a {
-    font-size: 5em;
+    font-size: 4em;
     padding: 1em 1em;
     color: #4BBAFA;
   }
