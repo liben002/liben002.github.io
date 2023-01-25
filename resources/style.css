@@ -61,6 +61,21 @@ body {
 
 @media screen and (max-width: 1080px) {
 
+  .about_me p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 2em;
+  }
+
+  .about_me h1 {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 3em;
+  color: #4BBAFA;
+ }
+
   .column {
     display: flex;
     flex-direction: column;
