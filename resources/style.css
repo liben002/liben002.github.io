@@ -65,6 +65,7 @@ body {
   .about_me p {
     margin-left: 10vw;
     margin-right: 10vw;
+    font-size: 3em;
   }
 
   .column {
@@ -75,7 +76,7 @@ body {
   }
 
   .column a {
-    font-size: 2em;
+    font-size: 5em;
     padding: 1em 1em;
     color: #4BBAFA;
   }
