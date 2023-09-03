@@ -1,28 +1,44 @@
-/*75 186 250 4BBAFA blue 204 204 204 CCCCCC*/
 /*
 font-family: 'Karla', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-/*Applies to the whole body*/
+
+/*html { 
+  background: url('images/background_color.jpeg') no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 body {
-    background-image: url('images/background_color.jpeg');
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
+  background: url('images/background_color.jpeg') no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100vh;
+  margin: 0 20px;
+  padding: 0;
 }
 
 .column {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .column a {
   font-size: 3.5em;
-  padding: 1em 1em;
+  padding: 5px 20px;
   color: #FFFFFF;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
@@ -33,16 +49,23 @@ body {
   text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
 }
 
+.column a:active {
+  font-size: 3.5em;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 
-@media screen and (max-width: 1080px) {
+/*@media screen and (max-width: 1080px) {
 
   body {
     background-image: url('images/background_color_portrait.jpeg');
@@ -77,8 +100,7 @@ body {
   .row {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
     align-items: center;
     justify-content: center;
   }
-}
+}*/
