@@ -5,82 +5,58 @@ font-family: 'Roboto', sans-serif;
 */
 /*Applies to the whole body*/
 body {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    /*background-image: url('images/background_black_white.jpeg');     */
+    background-image: url('images/background_color.jpeg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
 }
-
-.about_me {
-  position: relative;
-  margin-top: 15vh;
-  overflow: hidden;
-  display: block;
-}
-
- .about_me h1 {
-  font-family: 'Karla', sans-serif;
-  text-align: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  color: #4BBAFA;
- }
-
- .about_me p {
-  text-align: left;
-  margin-top: 5vh;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  font-family: 'Karla', sans-serif;
-  font-size: 2vh;
-  line-height: 2;
- }
 
 .column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .column a {
     font-size: 3em;
     padding: 1em 1em;
-    color: #4BBAFA;
+    color: #FFFFFF;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
 
 .column a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   align-items: center;
   justify-content: center;
 }
 
 
-@media screen and (max-width: 1080px) {
+/*@media screen and (max-width: 1080px) {
 
-/*  .about_me h1 {
-  font-family: 'Karla', sans-serif;
-  text-align: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  font-size: 3em;
-  color: #4BBAFA;
- }
-
-  .about_me p {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    font-size: 1.5em;
-  }
-*/
   .column {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   }
 
   .column a {
@@ -90,7 +66,7 @@ body {
   }
 
   .column a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .row {
@@ -100,4 +76,4 @@ body {
     justify-content: center;
   }
 
-}
+}*/
