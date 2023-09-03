@@ -5,8 +5,6 @@ font-family: 'Roboto', sans-serif;
 */
 /*Applies to the whole body*/
 body {
-    /*background-color: #FFFFFF;*/
-    /*background-image: url('images/background_black_white.jpeg');     */
     background-image: url('images/background_color.jpeg');
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
@@ -19,13 +17,14 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-family: 'Karla', sans-serif;
 }
 
 .column a {
-    font-size: 3em;
-    padding: 1em 1em;
-    color: #FFFFFF;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 3.5em;
+  padding: 1em 1em;
+  color: #FFFFFF;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
 
 .column a:hover {
@@ -43,37 +42,45 @@ body {
 }
 
 
-/*@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
+
+  body {
+    background-image: url('images/background_color.jpeg');
+    background-repeat:   no-repeat;
+    height: 100vh;
+    overflow:hidden;
+  }
 
   .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Karla', sans-serif;
   }
 
   .column a {
-    font-size: 3em;
+    font-size: 3.5em;
     padding: 1em 1em;
-    color: #4BBAFA;
-  }
+    color: #FFFFFF;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
 
   .column a:hover {
     text-decoration: none;
+    color: #000000;
+    text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
   }
 
   .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
     align-items: center;
     justify-content: center;
-  }
+}
 
-}*/
+
+}
