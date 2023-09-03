@@ -45,10 +45,10 @@ body {
 @media screen and (max-width: 1080px) {
 
   body {
-    background-image: url('images/background_color.jpeg');
-    background-repeat:   no-repeat;
+    background-image: url('images/background_color_portrait.jpeg');
+    background-repeat: no-repeat;
     height: 100vh;
-    overflow:hidden;
+    overflow: hidden;
   }
 
   .column {
@@ -80,7 +80,5 @@ body {
     /*flex-wrap: wrap;*/
     align-items: center;
     justify-content: center;
-}
-
-
+  }
 }
