@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;
 }*/
 
 body {
-  background: url('images/background_color.jpeg') no-repeat top center fixed; 
+  background: url('images/background_color.jpeg') no-repeat 25% 0% fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
