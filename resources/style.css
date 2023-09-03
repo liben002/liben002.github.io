@@ -29,23 +29,42 @@ body {
   justify-content: center;
 }
 
-.column a {
+.column a:link {
   font-size: 3.5em;
   padding: 5px 50px;
-  color: #FFFFFF;
+  color: white;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
 
 .column a:hover {
   text-decoration: none;
-  color: #000000;
-  text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+  font-size: 3.5em;
+  padding: 5px 50px;
+  color: black !important; /* not sure why it won't be black if !important isn't there */
+  text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF !important; /* not sure why it won't be black if !important isn't there */
 }
 
 .column a:active {
+  text-decoration: none;
   font-size: 3.5em;
-  padding: 5px 20px;
-  color: #FFFFFF;
+  padding: 5px 50px;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.column a:visited {
+  text-decoration: none;
+  font-size: 3.5em;
+  padding: 5px 50px;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.column a:focus {
+  text-decoration: none;
+  font-size: 3.5em;
+  padding: 5px 50px;
+  color: white;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
