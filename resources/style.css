@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-  background: url('images/background_color.jpeg') no-repeat 25% 0% fixed; 
+  background: url('images/background_color.png') no-repeat 25% 0% fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,7 +80,7 @@ body {
 /*@media screen and (max-width: 1080px) {
 
   body {
-    background-image: url('images/background_color_portrait.jpeg');
+    background-image: url('images/background_color_portrait.png');
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
